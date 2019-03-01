@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8">
+<head>
+	<title>EXPLORAR</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/stylebuttons.css">
+	<link rel="stylesheet" type="text/css" href="./css/styletext.css">
+</head>
+<body>
+	<header class="menubar">
+	<a href=""><img class="logo" src="./logo/logonuevo2.png"></a>
+    <a class="menusection" href="index.html">INICIO</a> 
+    <a class="menusection">BUSCAR</a> 
+    <a class="menusection" href="info.html">INFO</a>
+    <a class="menusection" href="login.html">LOG IN</a>
+    </header>
+
+    <article class="contenedor2">
+	<h1 id="acheuno" class="h1">BUSCA UNA ZONA VERDE AHORA MISMO!</h1>
+	<div id="basura3"></div>
+	<div id="ficha1" class="ficha"><p class="exppar">HAZ UNA BUSQUEDA POR NOMBRE</p>
+		<button id="BtnNombre" class="Btns" > BUSCAR</button></div>
+
+	<div id="ficha2" class="ficha"><p class="exppar">HAZ UNA BUSQUEDA POR COLONIA</p>
+		<button id="BtnColonia" class="Btns">BUSCAR</button></div>
+
+	<div id="ficha3" class="ficha"><p class="exppar">HAZ UNA BUSQUEDA POR CODIGO POSTAL</p>
+		<button id="BtnCodigoP" class="Btns">BUSCAR</button></div>
+
+	<div id="basura4"></div>
+	<div id="basura5"></div>
+
+</article>
+	<article id="oculto1" class="oculto1">
+		<h3 id="nametitle">SELECCIONA EL NOMBRE DE LA ZONA VERDE DE TU INTERES:</h3>
+		<select id="nameselect" name="select">
+ 			<option value="value1">Parque "El Laguito"</option> 
+  			<option value="value2" selected>Parque Periferico </option>
+  			<option value="value3">Parque "La rotonda"</option>
+		</select>
+		<div id="masbasura1"></div>
+		<div id="masbasura2"></div>
+	</article>
+	<div id="divsend1">
+		<button id="Btnsend1">EXPLOREMOS YA</button></div>
+
+	<article id="oculto2" class="oculto1">
+		<h3 id="nametitle">SELECCIONA LA COLONIA O FRACCIONAMIENTO DE TU INTERES:</h3>
+		<select id="nameselect2" name="select">
+ 			<option value="value1">col. Lucero</option> 
+  			<option value="value2" selected>fracc. Satelite</option>
+  			<option value="value3">col. Buena Vista</option>
+		</select>
+		<div id="masbasura1"></div>
+		<div id="masbasura2"></div>
+	</article>
+	<div id="divsend2">
+		<button id="Btnsend2">EXPLOREMOS YA</button></div>
+
+	<article id="oculto3" class="oculto1">
+		<h3 id="nametitle">SELECCIONA EL CODIGO POSTAL DE TU INTERES:</h3>
+		<select id="nameselect3" name="select">
+ 			<option value="value1">87350</option> 
+  			<option value="value2" selected>86400</option>
+  			<option value="value3">83287</option>
+		</select>
+		<div id="masbasura1"></div>
+		<div id="masbasura2"></div>
+	</article>
+	<div id="divsend3">
+		<button id="Btnsend3">EXPLOREMOS YA</button></div>		
+
+	<article id="select">SELECCIONA UNA DE LAS OPCIONES ANTERIORES PARA MOSTRARTE LA INFORMACION!</article>
+
+	
+
+<footer class="footer">
+	<h3 class="foottitle">PATROCINADO POR:</h3>
+	<div id="foot1"></div>
+	<div id="foot2"><img src="./img/tec.png"></div>
+	<div id="foot3"><img src="./img/mat.png"></div>
+	<div id="foot4"></div>
+</footer>
+<script type="text/javascript" src="./jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="./js/explorar.js"></script>
+</body>
+</html>

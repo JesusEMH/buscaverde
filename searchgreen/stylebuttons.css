@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+.botones{
+	font-family: 'Merriweather', sans-serif;
+	font-size: 1em;
+	width: 15em;
+	height: 4em;
+	background-color: pink;
+	color: black;
+	margin: auto;
+	border-radius: 20px;
+	text-align: center;
+
+}
+
+.botones:hover{
+	background-color: black;
+	color: gray;
+}
+
+.Btns{
+	width: 10em;
+	height: 4em;
+	border: black;
+	
+}
+
+#BtnNombre{
+	background: black;
+	color: white;
+}
+
+#BtnColonia{
+	background: black;
+	color: white;
+}
+
+#BtnCodigoP{
+	background: black;
+	color: white;
+}
+
+
+#BtnNombre:hover{
+	background: blue;
+	border: black;
+	transition: 2s;
+}
+
+#BtnColonia:hover{
+	background: red;
+	border: black;
+	transition: 2s;
+}
+#BtnCodigoP:hover{
+	background: orange;
+	border: black;
+	transition: 2s;
+}
+
+.information{
+	display: disable;
+}
+
+.nuevo{
+	background: green;
+}
+
